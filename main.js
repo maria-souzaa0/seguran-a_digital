@@ -67,7 +67,7 @@ function classificaSenha(tamanhoAlfabeto){
     forcaSenha.classList.remove('fraca', 'media', 'forte');
     if (entopia > 57){
         forcaSenha.classList.add('forte');
-    } else if (entopia > 35 && entopia < 57 ) {
+    } else if (entropia > 35 && entopia < 57 ) {
         forcaSenha.classList.add('media');
     } else if (entropia <= 35){
         forcaSenha.classList.add('fraca');
